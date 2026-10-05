@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluvala Ravichandra | Data Analyst & AI/ML Specialist</title>
+    <meta name="description" content="Portfolio of Aluvala Ravichandra, B.Tech CSE (AI & ML) graduate and Data Analyst specializing in Python, SQL, Power BI, and Machine Learning.">
+    
+    <!-- Open Graph / Meta -->
+    <meta property="og:title" content="Aluvala Ravichandra | Data Analyst Portfolio">
+    <meta property="og:description" content="Data Analyst & AI/ML Specialist experienced in ETL pipelines, EDA, SQL, and predictive modeling.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar-header" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Aluvala Ravichandra Monogram Logo">
+                <span class="logo-box">AR</span>
+                <span class="logo-text">Ravichandra<span>.data</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" class="btn btn-outline btn-sm" download target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-download"></i> <span>Resume</span>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-grid"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-dot"></span> Available for Data & AI Roles
+                    </div>
+                    <h1 class="hero-title">ALUVALA RAVICHANDRA</h1>
+                    <h2 class="hero-subtitle">Data Analyst & AI/ML Specialist</h2>
+                    <p class="hero-summary">
+                        B.Tech CSE (AI & ML) graduate specializing in transforming raw complex data into actionable business intelligence using Pandas, NumPy, Power BI, and SQL. Experienced in automated ETL pipelines, EDA, and predictive machine learning models.
+                    </p>
+                    
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Warangal, Telangana, India</span>
+                        <span><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE (AI & ML)</span>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/ravichandra-aluvala" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:aluvalaravipatel04@gmail.com" aria-label="Email Direct"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+917287033029" aria-label="Phone Direct"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="data-card-wrapper">
+                        <div class="data-card">
+                            <div class="card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="card-title">analytics_pipeline.py</span>
+                            </div>
+                            <div class="card-body">
+<pre><code><span class="code-keyword">import</span> pandas <span class="code-keyword">as</span> pd
+<span class="code-keyword">from</span> sklearn.metrics <span class="code-keyword">import</span> accuracy_score
+
+<span class="code-comment"># Extract & Load Pipeline</span>
+df = pd.read_sql(query, db_engine)
+cleaned_df = pipeline.transform(df)
+
+<span class="code-comment"># Performance Metrics</span>
+accuracy = accuracy_score(y_test, y_pred)
+<span class="code-builtin">print</span>(<span class="code-string">f"Pipeline Status: Optimal"</span>)
+<span class="code-builtin">print</span>(<span class="code-string">f"Model Accuracy: {accuracy * 100}%"</span>)</code></pre>
+                            </div>
+                        </div>
+
+                        <div class="metric-badge metric-1">
+                            <div class="metric-value">40%</div>
+                            <div class="metric-label">ETL Processing Efficiency Improved</div>
+                        </div>
+                        <div class="metric-badge metric-2">
+                            <div class="metric-value">92%</div>
+                            <div class="metric-label">Recommendation System Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Profile & Expertise</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-about">
+                        <h3><i class="fa-solid fa-user-astronaut"></i> Professional Overview</h3>
+                        <p>
+                            I am a <strong>Computer Science & Engineering (AI & ML)</strong> graduate from Vaagdevi College of Engineering. I bring hands-on experience in data analysis, SQL querying, Python scripting, and BI reporting gained through two prestigious AICTE-certified internships with <strong>Microsoft Azure AI</strong> and <strong>Google AI/ML (Eduskills)</strong>.
+                        </p>
+                        <p>
+                            My core technical passion lies in building efficient end-to-end analytics workflows—ranging from extracting raw unstructured data and engineering automated ETL pipelines to developing predictive statistical models and interactive business intelligence dashboards.
+                        </p>
+                    </div>
+
+                    <div class="about-card focus-card">
+                        <h3><i class="fa-solid fa-compass"></i> Core Focus Areas</h3>
+                        <ul class="focus-list">
+                            <li><i class="fa-solid fa-check"></i> <strong>Exploratory Data Analysis (EDA):</strong> Extracting actionable business trends using Python (Pandas, NumPy, Seaborn).</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>ETL & Data Engineering:</strong> Building clean, automated pipeline architectures to boost processing speeds.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Predictive & ML Modeling:</strong> Applied classification, NLP sentiment scoring, and Cosine similarity systems.</li>
+                            <li><i class="fa-solid fa-check"></i> <strong>Database Administration:</strong> Crafting optimized SQL queries (CRUD, JOINS, Indexing) and MongoDB structures.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section bg-alt" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Stack</span>
+                    <h2 class="section-title">Skills & Capabilities</h2>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Languages -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag highlight">Python</span>
+                            <span class="tech-tag highlight">SQL</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">C</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analysis & Visualization -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Data Analytics & Visualization</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag highlight">Pandas</span>
+                            <span class="tech-tag highlight">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Seaborn</span>
+                            <span class="tech-tag">Exploratory Data Analysis (EDA)</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases & Querying</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag highlight">SQL (CRUD, JOINS, Indexing, Aggregations)</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+
+                    <!-- Machine Learning & NLP -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>Machine Learning & NLP</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag highlight">Scikit-learn</span>
+                            <span class="tech-tag">TF-IDF</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">Cosine Similarity</span>
+                            <span class="tech-tag">Feature Engineering</span>
+                            <span class="tech-tag">Statistical Modeling</span>
+                        </div>
+                    </div>
+
+                    <!-- BI & Analytics Tools -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h3>BI & Reporting Tools</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">Microsoft Excel (Pivot Tables, VLOOKUP)</span>
+                        </div>
+                    </div>
+
+                    <!-- Concepts & Platforms -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-cubes"></i>
+                            <h3>Platforms, Tools & Concepts</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="tech-tag highlight">Microsoft Azure</span>
+                            <span class="tech-tag">Git & GitHub</span>
+                            <span class="tech-tag">VS Code</span>
+                            <span class="tech-tag">ETL Pipelines</span>
+                            <span class="tech-tag">Data Cleaning</span>
+                            <span class="tech-tag">Statistical Analysis</span>
+                            <span class="tech-tag">SDLC & Agile</span>
+                            <span class="tech-tag">Data Structures & Algorithms (DSA)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Career Path</span>
+                    <h2 class="section-title">Internship Experience</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Internship 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">AI & Data Analytics Intern</h3>
+                                    <h4 class="company-name">Microsoft Azure AI <span class="cert-badge">(Edunet Foundation, AICTE-Certified)</span></h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> May 2025 – Jun 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Performed <strong>Exploratory Data Analysis (EDA)</strong> on structured datasets using Python (Pandas, NumPy), generating actionable business insights utilizing Azure Cognitive Services.</li>
+                                <li>Engineered and built automated <strong>ETL pipelines</strong> to extract, clean, and transform data from multiple sources, boosting overall data-processing efficiency by <strong>40%</strong>.</li>
+                                <li>Developed and deployed machine learning models on <strong>Microsoft Azure ML Studio</strong> for classification and regression tasks, successfully reducing model deployment time by <strong>30%</strong>.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span class="mini-tag">Python</span>
+                                <span class="mini-tag">Pandas</span>
+                                <span class="mini-tag">NumPy</span>
+                                <span class="mini-tag">Azure Cognitive Services</span>
+                                <span class="mini-tag">Azure ML Studio</span>
+                                <span class="mini-tag">ETL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Internship 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">AI/ML Engineering Intern</h3>
+                                    <h4 class="company-name">Eduskills <span class="cert-badge">(Google for Developers, AICTE-Certified)</span></h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> May 2025 – Aug 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Completed industry-aligned AI/ML projects covering data preprocessing, feature engineering, model building, and evaluation metrics.</li>
+                                <li>Participated in expert mentorship sessions and career-readiness technical workshops focused on production ML workflows and analytics implementation.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span class="mini-tag">AI/ML</span>
+                                <span class="mini-tag">Data Preprocessing</span>
+                                <span class="mini-tag">Model Evaluation</span>
+                                <span class="mini-tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section bg-alt" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Featured Works</span>
+                    <h2 class="section-title">Key Analytics & AI Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-top">
+                            <div class="project-icon"><i class="fa-solid fa-comments"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Customer Sentiment Analysis Dashboard</h3>
+                        <p class="project-desc">
+                            Conducted comprehensive natural language processing on 50,000 Amazon customer reviews to analyze consumer sentiment trends and power data-driven reporting.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="p-highlight-item">
+                                <span class="p-num">88%</span>
+                                <span class="p-lbl">Accuracy with TF-IDF & Logistic Regression</span>
+                            </div>
+                            <div class="p-highlight-item">
+                                <span class="p-num">0.87</span>
+                                <span class="p-lbl">F1-Score achieved on binary sentiment</span>
+                            </div>
+                            <div class="p-highlight-item">
+                                <span class="p-num">+12%</span>
+                                <span class="p-lbl">Performance boost via NLP cleaning pipeline</span>
+                            </div>
+                        </div>
+                        <ul class="project-details-list">
+                            <li>Built custom NLP data-cleaning pipeline featuring tokenization, stopword removal, and lemmatization.</li>
+                            <li>Visualized key metrics and sentiment distributions with Matplotlib and Seaborn for business stakeholder reporting.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLTK</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-top">
+                            <div class="project-icon"><i class="fa-solid fa-film"></i></div>
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Anime Recommendation System</h3>
+                        <p class="project-desc">
+                            A high-performance recommendation application processing 10,000+ catalog entries using hybrid collaborative and content-based filtering algorithms.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="p-highlight-item">
+                                <span class="p-num">92%</span>
+                                <span class="p-lbl">Recommendation Accuracy achieved</span>
+                            </div>
+                            <div class="p-highlight-item">
+                                <span class="p-num">+35%</span>
+                                <span class="p-lbl">Query efficiency via MongoDB indexing</span>
+                            </div>
+                            <div class="p-highlight-item">
+                                <span class="p-num">&lt;150ms</span>
+                                <span class="p-lbl">Real-time prediction latency</span>
+                            </div>
+                        </div>
+                        <ul class="project-details-list">
+                            <li>Applied Cosine Similarity algorithm across catalog attributes for instant item matching.</li>
+                            <li>Engineered sub-150ms prediction pipeline backed by FastAPI and optimized MongoDB collections.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>FastAPI</span>
+                            <span>MongoDB</span>
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Cosine Similarity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic Credentials</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="education-grid">
+                    <div class="edu-card">
+                        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-period">2022 – 2026</span>
+                            <h3 class="edu-degree">B.Tech in Computer Science & Engineering (AI & ML)</h3>
+                            <h4 class="edu-school">Vaagdevi College of Engineering</h4>
+                            <div class="edu-score">
+                                <span class="score-label">CGPA:</span>
+                                <span class="score-value">7.45</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                        <div class="edu-details">
+                            <span class="edu-period">2020 – 2022</span>
+                            <h3 class="edu-degree">Intermediate (MPC)</h3>
+                            <h4 class="edu-school">Kakatiya Graduates Junior College, Narsampet</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section bg-alt" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Verified Accomplishments</span>
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="cert-content">
+                            <h3>Python Full Stack Development</h3>
+                            <p class="cert-issuer">Eduskills Academy, AICTE</p>
+                            <span class="cert-year">2025</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-brands fa-microsoft"></i></div>
+                        <div class="cert-content">
+                            <h3>Microsoft Azure AI Internship Certification</h3>
+                            <p class="cert-issuer">Edunet Foundation, AICTE</p>
+                            <span class="cert-year">2025</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-content">
+                            <h3>SQL for Data Analysis</h3>
+                            <p class="cert-issuer">Coursera</p>
+                            <span class="cert-year">2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Highlights / Key Strengths -->
+        <section class="section" id="highlights">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Key Strengths</span>
+                    <h2 class="section-title">Career Highlights</h2>
+                </div>
+
+                <div class="highlights-grid">
+                    <div class="highlight-box">
+                        <i class="fa-solid fa-bolt"></i>
+                        <h4>40% Pipeline Acceleration</h4>
+                        <p>Streamlined extract, transform, and load procedures during Microsoft Azure AI internship.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <h4>88% Sentiment Precision</h4>
+                        <p>Evaluated 50,000 Amazon product feedback entries to generate actionable customer sentiment reports.</p>
+                    </div>
+
+                    <div class="highlight-box">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h4>Dual AICTE Certifications</h4>
+                        <p>Successfully completed rigorous industry internship tracks with Google for Developers & Microsoft.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section bg-alt" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact Information</h2>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info-card">
+                        <h3>Let's Connect</h3>
+                        <p>I am open to full-time opportunities, internships, and research collaborations in Data Analysis, ETL Pipeline Engineering, and Machine Learning.</p>
+                        
+                        <div class="contact-details">
+                            <a href="mailto:aluvalaravipatel04@gmail.com" class="contact-item">
+                                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="c-label">Email</span>
+                                    <span class="c-val">aluvalaravipatel04@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+917287033029" class="contact-item">
+                                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <span class="c-label">Phone</span>
+                                    <span class="c-val">+91-7287033029</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item">
+                                <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <span class="c-label">Location</span>
+                                    <span class="c-val">Warangal, Telangana, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials-row">
+                            <a href="https://linkedin.com/in/ravichandra-aluvala" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#hero" class="footer-logo">AR <span>Aluvala Ravichandra</span></a>
+                <p>Data Analyst & AI/ML Specialist</p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-right">
+                <p>&copy; <span id="copyrightYear">2026</span> Aluvala Ravichandra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>
